@@ -24,3 +24,17 @@
 # Error: Age must be a positive integer!
 
 # write your code here:
+def check_age(age):
+   
+    if(age>=0):
+        return True
+    else:
+        print("Age must be a positive integer.")
+
+try:
+    age = int(input("Write your age: "))
+    check_age(age)
+except:
+    print("Age must be a positive integer.")
+else:
+    print("Age accepted")

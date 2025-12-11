@@ -25,3 +25,14 @@
 # Operation finished.
 
 # write your code here:
+
+nr = int(input ("Enter the nominator"))
+dnr = int(input("Enter the denominator"))
+try:
+    div = nr/dnr
+except:
+    print("You must enter numeric values, second one can't be 0")
+else:
+    print("Division succesful! Result: ", div)
+print ("Operation finsished.")
+
