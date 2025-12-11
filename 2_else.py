@@ -22,3 +22,13 @@
 # Attempt finished.
 
 # write your code here:
+nr = input("Enter a nr: ")
+try:
+    int(nr)
+except ValueError:
+    print("You need to type a nr.")
+except:
+    print("Something went wrong.")
+else: 
+    print("Conversion successful.")
+print("Attempt finished.")
